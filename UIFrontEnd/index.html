@@ -1,0 +1,393 @@
+<html>
+    <head>
+        <title>UI design</title>
+        <style>
+            * {
+                margin: 0%;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                
+            }
+            body{
+                
+            }
+            #menubar{
+                padding-bottom: 10px;
+                background-color: #81529d;
+            }
+            #logoname{
+                text-align: left;
+                padding: 15px;
+                
+            }
+            #logo{
+                color: ghostwhite;
+                padding-top: 5px;
+                position: relative;
+            }
+ 
+            .right-align{
+                float: right;
+                padding: 15px;
+                margin-right: 15px;
+            }
+            .right-align #a1 {
+                position: absolute;
+                color: ghostwhite;
+                padding: 10px;
+                top: 10px;
+                right: 100px;
+                font-size: 15px;
+                text-decoration: none;
+                
+            }
+            .right-align #a2 {
+                position: absolute;
+                color: ghostwhite;
+                padding: 10px;
+                top: 10px;
+                right: 165px;
+                font-size: 15px;
+                text-decoration: none;
+            }
+            .right-align #a3 {
+                position: absolute;
+                color: ghostwhite;
+                font-size: 15px;
+                padding: 10px;
+                top: 10px;
+                right: 250px;
+                text-decoration: none;
+            }
+            .right-align button{
+                padding: 10px 15px;
+                border-radius: 25px;
+                border: none;
+                text-decoration: none;
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                margin-top: 10px;
+                margin-right: 20px;
+                padding-bottom: 10px;
+            }
+            .section1{
+                background-color: #81529d;
+                padding-bottom: 190;
+            }
+            .section1 #image1{
+               position: absolute;
+               padding: 75px;
+            }
+            #image2 {
+                position: relative;
+                right: -450px;
+                top: 130px;
+                padding-left: 360px;
+                
+                text-align: right;
+            }
+            .section1 p{
+                position: absolute;
+                padding: 15px;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 70px;
+                font-weight: bold;
+                color: ghostwhite;
+                bottom: 25px;
+            }
+            .section1 #searchbox{
+                left: 15px;
+                bottom: 0px;
+                padding-right: 170px;
+                padding-bottom: 15px;
+                position: absolute;
+                border-radius: 15px;
+                font-size: 10px;
+                border: none;
+            }
+            .section1 #search-btn{
+                position: absolute;
+                left: 270px;
+                padding: 5px 5px;
+                border-radius: 25px;
+                border: none;
+                background-color: #fe7138;
+                color: ghostwhite;
+                text-decoration: none;
+                position: absolute;
+                bottom: 0px;
+            }
+            .section2{
+                background-color: #81529d;
+                padding: 160;
+            }
+            #para {
+                height: 200px;
+                width: 1200px;
+                padding-bottom: 130px;
+                background-color: #62317f;
+                color: ghostwhite;
+                text-align:justify ;
+            }
+            #para>p{
+                padding-left: 130px;
+                padding-top: 15px;
+                font-size: 35px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .section2 #para1{
+                font-size: 20px;
+                color:aqua;
+            }
+            .section3 {
+                background-color: #81529d;
+                padding-bottom: 360px;
+            }
+            #image3{
+                position: absolute;
+                padding-left: 120px;
+            }
+            #main-content{
+                position: relative;
+                padding-left: 660px;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 70px;
+                font-weight:100;
+                color: ghostwhite;
+                
+            }
+            #sub-content{
+                position: relative;
+                padding-left: 660px;
+                bottom: -50px;
+                font-size: 20px;
+                color: lightslategrey;
+                text-align: justify;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            #box1{
+                height: 200px;
+                width: 200px;
+                background-color: #f8b53c;
+                position:absolute;
+                bottom: -1500px;
+                right: 860px;
+            }
+            #box1 p{
+                text-align:left;
+                font-size: 20px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                top: 100px;
+                position: relative;padding-left: 10px;
+
+                
+            }
+            #box2{
+                height: 200px;
+                width: 200px;
+                background-color: #f8b53c;
+                position:absolute;
+                bottom: -1500px;
+                right: 450px;
+            }
+            #box2 p{
+                text-align: left;
+                font-size: 20px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                top: 100px;
+                position: relative;padding-left: 10px;
+
+              
+            }
+            #box3{
+                height: 200px;
+                width: 200px;
+                background-color: #f8b53c;
+                position:absolute;
+                bottom: -1500px;
+                right: 60px;
+            }
+            #box3 p{
+                text-align:left;
+                font-size: 20px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                top: 100px;
+                position: relative;padding-left: 10px;
+            }
+            .section4{
+                padding-bottom: 360px;
+                
+                
+            }
+            .section4 #left-align{
+                position: absolute;
+                padding-left: 60px;
+                font-size: 60px;
+                font-family:'Courier New', Courier, monospace;
+                top: 2350px;
+            }
+            .section4 #right-align{
+                position: relative;
+                padding-left: 660px;
+                bottom: -190px;
+                font-size: 20px;
+                color: black;
+                text-align: justify;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            #footer{
+                background-color: #f8f8f8;
+                margin: auto;
+                padding: 60px;
+                
+            }
+            #contain{
+               
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            ul{
+                list-style: none;
+            }
+            #foot{
+                width: 15%;
+                padding: 0 25px;
+            }
+            li{
+                padding-bottom: 15px;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <div id="menubar">
+            <div id="logoname">
+                <p id="logo">Jelly-Bean</p>
+            </div>
+            <div class="right-align">
+                <a id="a1" href="service.html">Service</a>
+                <a id="a2" href="AboutUs.html">About Us</a>
+                <a id="a3" href="Contact.html">Contact</a>
+                <button>Sign Up</button>
+            </div>
+        </div>
+        <div class="section1">
+            <div id="left-align">
+                <img id="image1" src="office.jpg" height="400px" width="400px">
+                <p>A Creative<br> Company That's More</p>
+                <form method="get" action="search.php" >
+                    <input id="searchbox" type="text" id="search-box" >
+                    <button type="submit" id="search-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg></button>
+                </form>
+            </div>
+            <div id="right-align">
+                <img id="image2" src="office2.jpg" height="600px" width="600px" >
+            </div>
+        </div>
+        <div class="section2">
+            <div id="para">
+                <p>An agency refers to a relationship comparising two parties,where <br>
+                    one party, called the agent, represents the other party, called the<br>
+                    principal. An agent is usally hired by the principle to perform an<br>
+                    act or service on his behalf.<br>
+                </p>
+                <br>
+                <p id="para1">
+                    <i>by Founder</i><br>
+                    <i>Barath Gowtham</i>
+                </p>
+                
+            </div>
+        </div>
+        <div class="section3">
+            <div id="left-align">
+                <img id="image3" src="office2.jpg" height="500px" width="400px">
+            </div>
+            <div id="right-align">
+                <div id="main-content">
+                    <p>Correct decision is<br>
+                        the main purpose<br>
+                        of this agency.<br>
+                    </p>
+                </div>   
+                <div id="sub-content">
+                    <p>Lorem ipsum dolor sit amet consectetur. Congue iaculis nullam<br>
+                        pulvinar purus mauris odio. Eget tempor id ullamcorper facilisi<br>
+                        proin odio.<br>
+                    </p>
+                </div> 
+            </div>
+        </div>
+        <div class="container">
+            <div id="box1"><p>01<br>Planning</p></div>
+            <div id="box2"><p>02<br>Expriment</p></div>
+            <div id="box3"><p>03<br>Project</p></div>
+        </div>
+        <div class="section4">
+            <div id="left-align">
+                <p>Concept</p>
+            </div>
+            <div id="right-align">
+                <p>Lorem ipsum dolor sit amet consectetur. Congue iaculis nullam<br>
+                    pulvinar purus mauris odio. Eget tempor id ullamcorper facilisi<br>
+                    proin odio.<br>
+                </p>
+            </div>
+        </div>
+        <footer>
+            <div id="footer">
+                <div id="contain">
+                    <div id="foot">
+                        
+                        <ul>
+                            <li><p><b>Product</b></p></li>
+                            <li><a>Icon Design</a></li>
+                            <li><a>Logo Design</a></li>
+                            <li><a>UI Design</a></li>
+                        </ul>
+                    </div>
+                    <div id="foot">
+                       
+                        <ul>
+                            <li><p><b>Resources</b></p></li>
+                            <li><a>BLog</a></li>
+                            <li><a>Support</a></li>
+                            <li><a>Newsletter</a></li>
+                        </ul>
+                    </div>
+                    <div id="foot">
+                        <ul>
+                            <li><p><b>Community</b></p></li>
+                            <li><a>Twitter</a></li>
+                            <li><a>Instagram</a></li>
+                            <li><a>Slack</a></li>
+                        </ul>
+                    </div>
+                    <div id="foot">
+                       
+                        <ul>
+                            <li><p><b>Support</b></p></li>
+                            <li><a>My Account</a></li>
+                            <li><a>Help</a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div id="foot">
+                       
+                        <ul>
+                            <li><p><b>Company</b></p></li>
+                            <li><a>Privacy policy</a></li>
+                            <li><a>Terms of Service</a></li>
+                            <li><a>Code of Conduct</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
